@@ -281,6 +281,11 @@ Choose from the list of available fixers:
                          placed in a function
                          declaration.
 
+* **function_return_type_space**
+                         Add missing space between
+                         function definition and its
+                         return type.
+
 * **function_typehint_space** [@Symfony]
                          Add missing space between
                          function's argument and its
@@ -675,6 +680,10 @@ Choose from the list of available fixers:
                          Converts print language
                          construct to echo if
                          possible.
+
+* **property_separation**
+                         Properties must be separated
+                         with one blank line.
 
 * **psr0**
                          Classes must be in a path
